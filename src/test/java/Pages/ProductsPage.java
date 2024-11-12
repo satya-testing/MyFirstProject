@@ -36,7 +36,7 @@ public class ProductsPage {
 	
 	public static String sneakerShoes_firstShoeName = "/html/body/div[4]/table/tbody/tr[1]/td[1]";
 	
-	
+	//Testcase 1 to check formal shoes title verification
 	public  void FormalShoes_verifyTitle() {
 		
 		String actualTitle_formalshoes = driver.findElement(By.xpath(foramlShoes_title)).getText().trim();
@@ -61,7 +61,7 @@ public class ProductsPage {
 		}
 	}
 
-	
+	//Testcase 2 to check sports shoes title verification
 	public  void SportsShoes_verifyTitle() {
 	//	String actualTitle_sportsshoes = driver.findElement((By.xpath(sportsShoes_title)).getText();
 		String actualTitle_sportsshoes =driver.findElement(By.xpath(sportsShoes_title)).getText().trim();
@@ -84,7 +84,7 @@ public class ProductsPage {
 			throw e;
 		}
 	}
-	
+	//Testcase 3 to check sneakers shoes title verification
 	public  void SneakerShoes_verifyTitle() {
 		String actualTitle_sneakershoes = driver.findElement(By.xpath(sneakerShoes_title)).getText().trim();
 		System.out.println("<<<<<sneakers>>>>>"+actualTitle_sneakershoes);
@@ -109,6 +109,7 @@ public class ProductsPage {
 		}
 	}
 	
+	//Testcase 4 to check 1st formal shoes name
 	public  void formalShoes_verify_1stshoe() {
 		String expected_foramlshoe_1stname ="Classic Cheltenham";
 		driver.findElement(By.xpath(formalShoes_dropdown)).click();
@@ -131,6 +132,7 @@ public class ProductsPage {
 		}
 	}
 	
+	//Testcase 5 to check 1st sports shoes name
 	public  void sportsShoes_verify_1stshoe() {
 		String expected_sportsshoe_1stname = "Ultimate";
 		driver.findElement(By.xpath(sportsShoes_dropdown)).click();
@@ -153,6 +155,7 @@ public class ProductsPage {
 		}
 	}
 	
+	//Testcase 6 to check 1st sneakers shoes name
 	public  void sneakerShoes_verify_1stshoe() {
 		String expected_sneakershoe_1stname = "Archivo";
 		driver.findElement(By.xpath(sneakerShoes_dropdown)).click();
