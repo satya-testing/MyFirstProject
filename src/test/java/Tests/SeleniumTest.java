@@ -18,7 +18,7 @@ import Pages.ProductsPage;
 public class SeleniumTest {
 		
 	 public  WebDriver driver;
-	 ExtentReports report;
+	// ExtentReports report;
 	 ExtentTest test;
 	 
 	  
