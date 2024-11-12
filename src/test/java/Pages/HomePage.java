@@ -26,3 +26,5 @@ public class HomePage {
 		driver.findElement(By.xpath(onlineproduct_link)).click();
 	}
 }
+
+//this code is pushed to remote repo
