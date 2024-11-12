@@ -132,7 +132,7 @@ public class ProductsPage {
 	}
 	
 	public  void sportsShoes_verify_1stshoe() {
-		String expected_sportsshoe_1stname = "Ultimate ";
+		String expected_sportsshoe_1stname = "Ultimate";
 		driver.findElement(By.xpath(sportsShoes_dropdown)).click();
 		String actual_sportsshoe_1stname=driver.findElement(By.xpath(sportsShoes_firstShoeName)).getText().trim();
 	/*	Assert.assertEquals(actual_sportsshoe_1stname, expected_sportsshoe_1stname);

@@ -20,6 +20,7 @@ public class SeleniumTest {
 	 public  WebDriver driver;
 	 ExtentReports report;
 	 ExtentTest test;
+	 
 	  
 	 ExtentReports extent_report = new ExtentReports();
 	
