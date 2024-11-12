@@ -1,78 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-10T00:37:55 IST" name="Default suite" finished-at="2024-11-10T00:38:04 IST" duration-ms="9828">
+  <suite started-at="2024-11-12T17:46:06 IST" name="Default suite" finished-at="2024-11-12T17:46:17 IST" duration-ms="11436">
     <groups>
     </groups>
-    <test started-at="2024-11-10T00:37:55 IST" name="Default test" finished-at="2024-11-10T00:38:04 IST" duration-ms="9828">
+    <test started-at="2024-11-12T17:46:06 IST" name="Default test" finished-at="2024-11-12T17:46:17 IST" duration-ms="11436">
       <class name="Tests.SeleniumTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:37:55 IST" name="setup" finished-at="2024-11-10T00:37:59 IST" duration-ms="4349" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:06 IST" name="setup" finished-at="2024-11-12T17:46:10 IST" duration-ms="4364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidateTitles_onlineProducts()[pri:1, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:37:59 IST" name="ValidateTitles_onlineProducts" finished-at="2024-11-10T00:38:03 IST" duration-ms="3961" status="PASS">
+        <test-method signature="ValidateTitles_onlineProducts()[pri:1, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:10 IST" name="ValidateTitles_onlineProducts" finished-at="2024-11-12T17:46:14 IST" duration-ms="3961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTitles_onlineProducts -->
-        <test-method signature="validateFirstFormalshoe()[pri:2, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:38:03 IST" name="validateFirstFormalshoe" finished-at="2024-11-10T00:38:03 IST" duration-ms="101" status="PASS">
+        <test-method signature="validateFirstFormalshoe()[pri:2, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:14 IST" name="validateFirstFormalshoe" finished-at="2024-11-12T17:46:14 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirstFormalshoe -->
-        <test-method signature="validateFirstSportsshoe()[pri:3, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:38:03 IST" name="validateFirstSportsshoe" finished-at="2024-11-10T00:38:03 IST" duration-ms="136" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Ultimate ] but found [Ultimate]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Ultimate ] but found [Ultimate]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at Pages.ProductsPage.sportsShoes_verify_1stshoe(ProductsPage.java:149)
-at Tests.SeleniumTest.validateFirstSportsshoe(SeleniumTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validateFirstSportsshoe()[pri:3, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:14 IST" name="validateFirstSportsshoe" finished-at="2024-11-12T17:46:15 IST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirstSportsshoe -->
-        <test-method signature="validateFirstSneakershoe()[pri:4, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:38:03 IST" name="validateFirstSneakershoe" finished-at="2024-11-10T00:38:03 IST" duration-ms="104" status="PASS">
+        <test-method signature="validateFirstSneakershoe()[pri:4, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:15 IST" name="validateFirstSneakershoe" finished-at="2024-11-12T17:46:15 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirstSneakershoe -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SeleniumTest@7bf3a5d8]" started-at="2024-11-10T00:38:03 IST" name="teardown" finished-at="2024-11-10T00:38:04 IST" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.SeleniumTest@13526e59]" started-at="2024-11-12T17:46:15 IST" name="teardown" finished-at="2024-11-12T17:46:17 IST" duration-ms="1935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
